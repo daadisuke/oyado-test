@@ -115,14 +115,14 @@ export default function Contact() {
                                 {...register(`your_contact_item`, {
                                     validate: {
                                         atLeastOneRequired: (value) =>
-                                          (value.length >= 1) || "1つ以上選択してください",
+                                          (value.length >= 1),
                                       }
                                 })}
                                 />
                                 <label htmlFor={`your_contact_item_${index}`}>{item.text}</label>
                             </span>
                         ))}
-                        {errors.your_contact_item && <div className='c-error-message'>{errors.your_contact_item.message}</div>}
+                        {errors.your_contact_item && <div className='c-error-message'>1つ以上選択してください</div>}
 
                         
                     </dd>
