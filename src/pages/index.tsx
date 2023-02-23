@@ -5,9 +5,9 @@ import Image from 'next/image';
 
 import Button from '@/components/common/button';
 
-import CaseList from '@/components/common/CaseList';
-import ColumnList from '@/components/common/ColumnList';
-import SeminarListSwiper from '@/components/top/SeminarListSwiper';
+// import CaseList from '@/components/common/CaseList';
+// import ColumnList from '@/components/common/ColumnList';
+// import SeminarListSwiper from '@/components/top/SeminarListSwiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react' //カルーセル用のタグをインポート
 import SwiperCore, { Pagination, Navigation ,Scrollbar} from 'swiper' //使いたい機能をインポート
