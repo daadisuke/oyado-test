@@ -137,7 +137,7 @@ export default function Home() {
 
           </section>
 
-          <section id="problem" className={`${styles['problem']} ${styles['l-section']}`}>
+          {/* <section id="problem" className={`${styles['problem']} ${styles['l-section']}`}>
 
               <div className={styles['l-section__inner']}>
 
@@ -344,7 +344,7 @@ export default function Home() {
 
               </div>
 
-          </section>
+          </section> */}
 
           <section id="case" className={`${styles['case']} ${styles['l-section']}`}>
 
