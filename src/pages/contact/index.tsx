@@ -37,7 +37,7 @@ export default function Contact() {
 
     // const contactList = ['無料相談', '資料請求', 'ITサポートについて', '集客サポートについて', '人手不足解消について', '資金不足解消について', '設備導入、改修サポートについて'];
 
-    const [contactList, setContactList] = useState<ContactList[]>([
+    const [contactList, setContactList] = useState([
         {
             text: "無料相談",
             checked: false,
